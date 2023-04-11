@@ -1839,34 +1839,4 @@ _G.SectionImageColor = Color3.fromRGB(150, 150, 150)
 _G.SectionTextColor = Color3.fromRGB(150, 150, 150)
 _G.SectionOn = Color3.fromRGB(250, 0, 250)
 
-
-
-
--- Window --
-local Win = Blacklib:Window("1 Player Baseplate")
-
--- Main Tab --
-
-local Tabes = Win:Tab("Home")
-Tabes:Note("")
-Tabes:Note("😝")
-Tabes:Note("Bozo")
-Tabes:Note("")
-Tabes:Note("In Beta ")
-Tabes:Note("Copy the new GUI below ")
-
-Tabes:Button("copy", function()
-    setclipboard("loadstring(game:HttpGet('https://raw.githubusercontent.com/Vildimor/scripts/main/Gizen'))()") ;
-end)
-
-
-Tabes:Note("UwU Yamete")
-Tabes:Note("Credits: ")
-Tabes:Note("Project BETA")
-Tabes:Note("Thanks to all sources!")
-Tabes:Note("Strenz Awesome")
-Tabes:Note("")
-Tabes:Note("")
-Tabes:Note("")
-Tabes:Note("")
-Tabes:Note("")
+--Vildimor--
